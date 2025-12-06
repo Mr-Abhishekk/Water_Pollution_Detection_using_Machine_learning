@@ -1,4 +1,4 @@
-🌊 Water Pollution Detection Using Machine Learning
+Water Pollution Detection Using Machine Learning
 
 This project uses machine learning to predict the quality of water and classify it as Safe, Moderate, or Contaminated. By entering common water parameters like pH, BOD, DO, and Coliform levels, the system can instantly estimate the pollution level and help users understand the condition of the water.
 
@@ -36,20 +36,16 @@ Includes multiple ML models: Random Forest, Decision Tree, Logistic Regression, 
 
 *Project Structure:
 water-pollution-detection-ml/
-│
-├── streamlit_app.py                # Main Streamlit App
-├── requirements.txt                # Python Dependencies
-├── README.md                       # Documentation
-│
-├── model/
-│   ├── dt_model_pipeline.joblib    # Trained ML Model
-│   ├── label_encoder.joblib        # Encoder for labels
-│
-├── data/
-│   ├── water_data.csv              # Dataset
-│
-└── notebooks/
-    ├── WaterPollution_Project.ipynb   # Complete ML Pipeline Notebook
+streamlit_app.py                # Main Streamlit App
+requirements.txt                # Python Dependencies
+README.md                       # Documentation
+ model/
+   dt_model_pipeline.joblib    # Trained ML Model
+    label_encoder.joblib        # Encoder for labels
+    data/
+         water_data.csv              # Dataset
+notebooks/
+     WaterPollution_Project.ipynb   # Complete ML Pipeline Notebook
 
 *Project Description:
 
@@ -72,7 +68,7 @@ It’s a simple, practical tool for learning, research, or environmental analysi
 1️)Install the required packages:
 2)pip install -r requirements.txt
 
-2️⃣ Start the Streamlit app:
+Start the Streamlit app:
 streamlit run streamlit_app.py
 
 🌱 Future Improvements
