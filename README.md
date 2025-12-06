@@ -36,15 +36,15 @@ Includes multiple ML models: Random Forest, Decision Tree, Logistic Regression, 
 
 *Project Structure:
 water-pollution-detection-ml/
-streamlit_app.py                # Main Streamlit App
-requirements.txt                # Python Dependencies
-README.md                       # Documentation
- model/
-   dt_model_pipeline.joblib    # Trained ML Model
-    label_encoder.joblib        # Encoder for labels
-    data/
-         water_data.csv              # Dataset
-notebooks/
+1)streamlit_app.py                # Main Streamlit App
+2)requirements.txt                # Python Dependencies
+3)README.md                       # Documentation
+4)model/
+   4.1)dt_model_pipeline.joblib    # Trained ML Model
+    4.2)label_encoder.joblib        # Encoder for labels
+5)data/
+   5.1)water_data.csv              # Dataset
+6)notebooks/
      WaterPollution_Project.ipynb   # Complete ML Pipeline Notebook
 
 *Project Description:
@@ -71,7 +71,7 @@ It’s a simple, practical tool for learning, research, or environmental analysi
 Start the Streamlit app:
 streamlit run streamlit_app.py
 
-🌱 Future Improvements
+Future Improvements:
 
 Real-time sensor integration
 
